@@ -2,7 +2,7 @@ function [s, s_dot, s_dotdot]=trap_profile(t_i ,t_f, f_s, p_i, p_f)
     arguments % default argument
         t_i = 0.0
         t_f = 0.0
-        f_s = 1000
+        f_s = 100
         p_i = 0.0
         p_f = 1.0
     end
