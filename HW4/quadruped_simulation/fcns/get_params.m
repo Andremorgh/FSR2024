@@ -59,10 +59,10 @@ end
 
 
 %% Physical Parameters
-p.mass = 5.5;
+p.mass = 1.5;
 p.J = diag([0.026,0.112,0.075]);
 p.g = 9.81;
-p.mu = 0.5;       % friction coefficient
+p.mu = 1;       % friction coefficient
 p.z0 = 0.2;     % nominal COM height
 p.pf34 = [[0.15;0.094;0],[0.15;-0.094;0],[-0.15;0.094;0],[-0.15;-0.094;0]];
 
